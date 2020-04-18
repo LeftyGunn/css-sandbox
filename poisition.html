@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS Positions</title>
+<style>
+    body {
+        font-family: sans-serif;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+    }
+
+    #box1 {
+        background: rebeccapurple;
+    }
+    #box2 {
+        background: rgb(42, 165, 73);
+    }
+    #box3 {
+        background: black;
+    }
+    #box4 {
+        background: blue;
+    }
+    #box5 {
+        background: red;
+    }
+    #box6 {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        background: orange;
+    }
+    #box6:hover {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        background: magenta;
+        transition: 1s;
+    }
+    #box7 {
+        background: darkgreen;
+    }
+
+    #box8 {
+        position: absolute;
+        left: 200px;
+        top: 200px;
+        background: #fff;
+    }
+
+    #box9 {
+        position: absolute;
+        left: 300px;
+        top: 300px;
+        background: purple;
+    }
+
+    #boxmid {
+        position: relative;
+        right: 10em;
+        float: right;
+        width: 400px;
+        height: 400px;
+        background-color: #333333;
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+    <div id="boxmid">
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+    </div>
+    <div id="box1" class="box"></div>
+    <div id="box2" class="box"></div>
+    <div id="box3" class="box"></div>
+    <div id="box4" class="box"></div>
+    <div id="box5" class="box"></div>
+</body>
+</html>
