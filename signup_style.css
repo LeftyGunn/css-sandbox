@@ -3,5 +3,28 @@ body {
     padding: 0;
     background: url("images/background.jpg") no-repeat top;
     background-size: cover;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+/*-- container box --*/
+.container {
+    position: relative;
+    top: 80px;
+    width: 560px;
+    margin: auto;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 4px;
+    line-height: 8pt;
+}
+.container h1 {
+    font-size: 20pt;
+    text-align: center;
+    margin:0;
+    padding: 10px;
+}
+.container .subtext {
+    font-size: 12pt;
+    text-align: center;
+    margin:0;
+    padding:0;
 }
